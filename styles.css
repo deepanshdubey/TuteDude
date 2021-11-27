@@ -1,0 +1,156 @@
+body{
+    background-color: #f1d8f1;
+}
+
+/* HEADER  */
+#navbar{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+header nav{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid gray;
+    border-radius: 0px ;
+    padding: rem;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+header nav ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: .1rem;
+}
+
+button{
+    border: 1px solid purple;
+    border-radius: .2rem;
+    padding: .5rem;
+    background-color: white;
+}
+
+/* BODY */
+
+/*MAIN DIV 1 */
+
+div .TextContent{
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+div .works button{
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: .2rem;
+}
+
+/* MAIN DIV 2 */
+
+.brighten{
+    text-align: center;
+    background-color: #d192d1;
+    padding: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+/* MAIN SECTION (GRID 1) */
+
+section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: purple;
+    row-gap: .1rem;
+    column-gap: 2px;
+    margin: 1rem;
+    margin-top: 0;
+
+}
+
+.grid-item{
+    text-align: center;
+    background-color: #f1d8f1;
+    border-radius: 1rem;
+    margin: .5rem;
+}
+
+/* MAIN DIV 3 */
+
+.moneyback{
+    background-color: #c992e2;
+    border-radius: .5rem;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.moneyback p{
+    font-size: large;
+    font-weight: 400;
+}
+
+.moneyback button{
+    padding: .4rem;
+    font-size: large;
+    font-weight: bold;
+    color: purple;
+    border: #d192d1;
+    width: 50%;
+}
+
+/* MAIN DIV 4 */
+
+.categoties{
+    color: purple;
+
+}
+.cate-item{
+    padding: .6rem;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 1rem;
+    color: white;
+    background-color: rgb(231, 154, 231);
+}
+#first-ci{
+    background-color: purple;
+}
+
+/* UNIVERSAL CLASS */
+
+.text-color{
+    color: purple;
+}
+
+.filler{
+    color: white;
+    background-color: purple;
+    text-align: center;
+    width: max-content;
+    margin: auto;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 1rem;
+}
