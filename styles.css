@@ -1,9 +1,10 @@
-BODY {
-  padding: 0;
-  margin: 0;
+*{
+    font-family: sans-serif;
 }
 
 body {
+    padding: 0;
+  margin: 0;
   background-color: #f1d8f1;
 }
 
@@ -399,6 +400,7 @@ section div h3 {
   color: white;
   font-weight: bold;
   text-align: center;
+  padding: 1rem;
 }
 
 .query-container{
