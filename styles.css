@@ -52,7 +52,8 @@ header nav ul li {
 }
 
 button {
-  border: 1px solid purple;
+  border: 2px solid purple;
+  color: purple;
   border-radius: 0.2rem;
   padding: 0.5rem;
   background-color: white;
